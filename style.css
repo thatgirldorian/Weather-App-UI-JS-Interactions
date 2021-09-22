@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Container styles */
+.container {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+
+/* Nav Bar Styles */
+.nav-bar {
+    background-color: skyblue;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.nav-bar h1 {
+    padding-left: 200px;
+    padding-top: 20px;
+    font-size: 28px;
+}
+
+.cities li {
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    padding-right: 30px;
+    top: -25px;
+    left: 1080px;
+    cursor: pointer;
+}
+
+/* Current City Styles */
+.current-city {
+    background-color: white;
+    
+}
+
+.current-city p {
+    position: absolute;
+    right: 250px;
+    top: 90px;
+    font-size: 14px;
+}
+
+.current-city h3 {
+    padding-top: 20px;
+}
+
+select {
+    position: absolute;
+    right: 203px;
+    top: 100px;
+}
+
+hr {
+    border-top: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* Weather Rows Styles */
+.rows {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.weather-row {
+    padding-top: 20px;
+    width: 260px;
+    height: 300px;
+    background-color: gainsboro;
+}
+
+.weather-row img {
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.weather-row h4, p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Degree styles + span */
+#first, #third, #fifth, #seventh {
+    text-align: left;
+    position: relative;
+    top: 30px;
+}
+
+#second, #fourth, #sixth, #eight {
+    text-align: right;
+    position: relative;
+    top: -15px;
+}
+
+#left {
+    position: relative;
+    left: 85px;
+    bottom: -12px;
+    color: red;
+}
+
+#right {
+    position: relative;
+    left: 220px;
+    bottom: 32px;
+    color: blue;
+}
+
+.weather-row p {
+    font-size: 14px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.red, .blue {
+    margin-left: 100px;
+    position: relative;
+    top: 30px;
+    left: -40px;
+    font-weight: 800;
+    
+}
+/* Footer Styles */
+
+footer {
+    margin-top: 10px;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+}
+
+#cookie-section.hidden {
+    display: none;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer img {
+    width: 50px;
+    
+}
+
+footer button {
+    padding: 4px 12px 4px 12px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 2px;
+    box-shadow: 2px 2px 1px 1px black;
+    cursor: pointer;
+}
+
+
+
