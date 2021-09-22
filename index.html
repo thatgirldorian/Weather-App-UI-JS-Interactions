@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeeWeather - An app for checking the weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="nav-bar">
+        <h1>DeeWeather</h1>
+        <ul class="cities">
+            <li id="city">Burbank</li>
+            <li id="city1">Chicago</li>
+            <li id="city2">Dallas</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="current-city">
+            <h3>San Jose</h3>
+            <p>show temperature in:</p>
+            <select id="select-box" name="degree" onchange="changeDegree()">
+                <option value="0" id="celcius">&#176;C</option>
+                <option value="0" id="far">&#176;F</option>
+                <option>K</option>
+            </select>
+            <hr>
+        </div>
+        
+        <div class="rows">
+            <div class="weather-row">
+                <h4>Today</h4>
+                <img src="./assets/some_rain.png" alt="rain icon">
+                <p>some rain</p>
+                <p id="first" class="red">24</p><span id="left">&#176;</span>
+                <p id="second" class="blue">18</p><span id="right">&#176;</span>
+            </div>
+
+            <div class="weather-row">
+                <h4>Tomorrow</h4>
+                <img src="./assets/some_sun.png" alt="some sun icon">
+                <p>some sun</p>
+                <p id="third" class="red">27</p><span id="left">&#176;</span>
+                <p id="fourth" class="blue">19</p><span id="right">&#176;</span>
+            </div>
+
+            <div class="weather-row">
+                <h4>Friday</h4>
+                <img src="./assets/some_clouds.png" alt="some clouds">
+                <p> some clouds</p>
+                <p id="fifth" class="red">21</p><span id="left">&#176;</span>
+                <p id="sixth" class="blue">16</p><span id="right">&#176;</span>
+            </div>
+
+            <div class="weather-row">
+                <h4>Saturday</h4>
+                <img src="./assets/some_sun.png" alt="some_sun icon">
+                <p>some sun</p>
+                <p id="seventh" class="red">26</p><span id="left">&#176;</span>
+                <p id="eight" class="blue">21</p><span id="right">&#176;</span>
+            </div>
+        </div>
+
+        <footer id="cookie-section">
+            <img src="./assets/cookie.png" alt="cookie icon">
+            <div>
+                <h4>Stop! Cookie time</h4>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media feature and to analyse our traffic. <a href="#">Read more...</a></p>
+            </div> 
+            <button id="cookie-btn">I Accept</button>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
