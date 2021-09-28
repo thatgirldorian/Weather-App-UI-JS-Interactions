@@ -8,7 +8,7 @@ This program:
 
 - shows alerts when the cities are clicked on
 - converts temperature in Celsius to Fahrenheit
-- hides the cookie policy when the "I accept" button is clicked
+- hides the cookie policy when the "I accept" button is clicked on
 
 
 <h3>Technology Used:</h3>
